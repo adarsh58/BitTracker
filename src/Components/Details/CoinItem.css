@@ -1,0 +1,123 @@
+.CoinItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2px;
+  height: 7rem;
+  
+}
+.CoinItem:nth-child(1)
+{
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: black
+}
+.T {
+    border: 1px solid red;
+    flex:1.2;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    font-weight: bolder;
+
+   
+  }
+  .T>img{
+    width: 1rem;
+    height: 1rem;
+
+  }
+.H {
+  border: 1px solid red;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: black(117, 240, 117);
+}
+.H-g {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(117, 240, 117);
+  }
+  .H-r {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(237, 49, 49);
+  }
+.D {
+  border: 1px solid red;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.D-r {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(237, 49, 49);
+  }
+  .D-g {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(117, 240, 117);
+  }
+.W {
+  border: 1px solid red;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.W-r {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(237, 49, 49);
+  }
+
+  .W-g {
+    border: 1px solid red;
+    flex:1;
+    display: flex;
+    flex-direction: row;
+    color: rgb(117, 240, 117);
+    justify-content: center;
+  }
+  
+
+.P {
+  border: 1px solid red;
+  flex:1; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.MC {
+  border: 1px solid red;
+  flex:1; 
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.V24 {
+  border: 1px solid red;
+  flex:1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}

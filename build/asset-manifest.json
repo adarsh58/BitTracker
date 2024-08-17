@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.85b95ce0.css",
+    "main.js": "/static/js/main.9f2d3ba8.js",
+    "static/js/453.832e692c.chunk.js": "/static/js/453.832e692c.chunk.js",
+    "static/media/jup.png": "/static/media/jup.881d39467fb0b34b5142.png",
+    "static/media/hardware.png": "/static/media/hardware.f914b0847b9486517c14.png",
+    "static/media/Arb.png": "/static/media/Arb.643fca39d9697b7a11ad.png",
+    "static/media/dogecoin.png": "/static/media/dogecoin.356ce5a7749ebea79252.png",
+    "static/media/fox.png": "/static/media/fox.cc371092dfd932df696a.png",
+    "static/media/bitcoin.png": "/static/media/bitcoin.995f1e672a3552f02c3b.png",
+    "static/media/op.png": "/static/media/op.5839073aa1c07ac177c0.png",
+    "static/media/cpu.png": "/static/media/cpu.e115d25a8ecd2ffd20c6.png",
+    "static/media/gpu.png": "/static/media/gpu.bfb820112d5cf5d53994.png",
+    "index.html": "/index.html",
+    "main.85b95ce0.css.map": "/static/css/main.85b95ce0.css.map",
+    "main.9f2d3ba8.js.map": "/static/js/main.9f2d3ba8.js.map",
+    "453.832e692c.chunk.js.map": "/static/js/453.832e692c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.85b95ce0.css",
+    "static/js/main.9f2d3ba8.js"
+  ]
+}

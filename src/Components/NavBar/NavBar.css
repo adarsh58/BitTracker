@@ -1,0 +1,102 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 10%;
+  border-radius: 10px;
+  gap: 3rem;
+  background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
+
+}
+.NavBar>.User
+{
+  align-items: center;
+}
+
+.Heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-left: 10px;
+  gap:10px;
+  align-items: center;
+
+  flex:2
+  
+  
+}
+.Heading>h2 {
+ 
+  font-size: medium;
+
+}
+.Heading>img {
+
+  border-radius: 10rem;
+  cursor: pointer;
+  height: 50%;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.SearchGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:1rem;
+  height: 50%;
+  margin-top: 20px;
+  cursor: pointer;
+
+  flex:3
+}
+
+.User
+{
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+  
+  gap:0.5rem;
+  height: 50%;
+  margin-top: 15px;
+  justify-content: end;
+ 
+  flex:5
+}
+.UserImg>img
+{
+  border-radius: 10rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.UserImg>span
+{
+  border-radius: 10rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.UserIcon{
+ align-items: center;
+display: flex;
+flex-direction: row;
+gap: 10px;
+cursor: pointer;
+
+}
+.UserIcon>span{
+ width: 8rem;
+ font-size: small;
+ }

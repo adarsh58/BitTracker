@@ -1,0 +1,25 @@
+.PortFolio{
+  
+    height: 70vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+  
+
+}
+
+.PortFolioCard
+{
+    width: 79%;
+ 
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    /* background: linear-gradient(90deg, rgba(236, 236, 209, 1) 24%, rgba(251, 224, 251, 1) 100%); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:1rem
+}

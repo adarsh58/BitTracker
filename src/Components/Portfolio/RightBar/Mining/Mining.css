@@ -1,0 +1,46 @@
+.Mining {
+  display: grid;
+  grid-template-columns: 4rem auto 4rem;
+ 
+}
+
+.Icon > img {
+
+  border-radius: 10rem;
+  cursor: pointer;
+  height: 3rem;
+  width: 3rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.RightDetails {
+  margin-left: 1.5rem;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.Title{
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.Status{
+    
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: lighter;
+    color: red;
+
+}
+.Radiobtn
+{
+    
+    margin-left: 1rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
