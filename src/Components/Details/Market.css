@@ -11,16 +11,24 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid black;
+   
+   
 
 }
+.MarketRefresh{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;  
+    width: 97%;
+}
+
 .CoinContainer{
-    border: 2px solid black;
+ 
     height: 97%;
     width: 97%;
     display: flex;
     flex-direction: column;
     overflow: scroll;
-    gap:2px;
+    gap:.5rem;
 
 }

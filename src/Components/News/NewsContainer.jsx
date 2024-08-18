@@ -24,12 +24,8 @@ const [loading,setLoading]=useState(true);
     fetch('https://openapiv1.coinstats.app/news', options)
       .then(response => response.json())
       .then(response => {
-        
         setNews(response);
         setLoading(false);
-
-
-
       })
       .catch(err => console.error(err));
 

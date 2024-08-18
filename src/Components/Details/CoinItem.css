@@ -8,27 +8,34 @@
 }
 .CoinItem:nth-child(1)
 {
-    font-weight: 500;
-    margin-bottom: 10px;
-    color: black
+  background-color: #00FFEB;
+  height: fit-content;
+  width:100%;
+  position: sticky;
+  top: 0;
+  font-weight: bold;
 }
+
 .T {
-    border: 1px solid red;
+ 
     flex:1.2;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: start;
     font-weight: bolder;
-
+    gap: 1rem;
+  
    
   }
   .T>img{
-    width: 1rem;
-    height: 1rem;
-
+    width: 2rem;
+    height: 2rem;
+    align-items: center;
+  
   }
 .H {
-  border: 1px solid red;
+
   flex:1;
   display: flex;
   flex-direction: row;
@@ -36,7 +43,7 @@
   color: black(117, 240, 117);
 }
 .H-g {
-    border: 1px solid red;
+
     flex:1;
     display: flex;
     flex-direction: row;
@@ -44,7 +51,7 @@
     color: rgb(117, 240, 117);
   }
   .H-r {
-    border: 1px solid red;
+
     flex:1;
     display: flex;
     flex-direction: row;
@@ -52,14 +59,14 @@
     color: rgb(237, 49, 49);
   }
 .D {
-  border: 1px solid red;
+
   flex:1;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .D-r {
-    border: 1px solid red;
+   
     flex:1;
     display: flex;
     flex-direction: row;
@@ -67,7 +74,7 @@
     color: rgb(237, 49, 49);
   }
   .D-g {
-    border: 1px solid red;
+  
     flex:1;
     display: flex;
     flex-direction: row;
@@ -75,14 +82,14 @@
     color: rgb(117, 240, 117);
   }
 .W {
-  border: 1px solid red;
+ 
   flex:1;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .W-r {
-    border: 1px solid red;
+    
     flex:1;
     display: flex;
     flex-direction: row;
@@ -91,7 +98,7 @@
   }
 
   .W-g {
-    border: 1px solid red;
+
     flex:1;
     display: flex;
     flex-direction: row;
@@ -101,21 +108,21 @@
   
 
 .P {
-  border: 1px solid red;
+  
   flex:1; 
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .MC {
-  border: 1px solid red;
+ 
   flex:1; 
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 .V24 {
-  border: 1px solid red;
+
   flex:1;
   display: flex;
   flex-direction: row;

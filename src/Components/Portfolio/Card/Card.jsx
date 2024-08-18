@@ -5,21 +5,22 @@ const Card = (props) => {
   return (
     <div
       className="Card"
-      style={{
-        background: props.color.backGround,
-        boxShadow: props.color.boxShadow,
-      }}
+    
     >
       <div className="UpperCard">
         <div className="CardIcon">
           <img src={icon} alt="" />
+          
         </div>
         <div className="Ticker">{props.ticker}</div>
       </div>
       <div className="LowerCard">
-        {" "}
-        <div className="Price">{props.price}</div>
-        <div className="Value">{props.value}</div>
+       
+        <div className="Price">{props.price.toFixed(2)}</div>
+        <div className="Explore">
+        <i className="fa-brands fa-twitter"></i>
+       
+        </div>
       </div>
     </div>
   );
