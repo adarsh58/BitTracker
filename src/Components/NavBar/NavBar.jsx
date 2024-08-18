@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./NavBar.css";
 import {
   NavBarDataUilChart,
@@ -40,12 +40,19 @@ const NavBar = () => {
         <img src={NavBarDatalogo.icon}></img>
       </div>
       <div className="SearchGroup">
-        <TextField fullWidth label="Search..." id="fullWidth" />
+        <TextField label="Search..." id="fullWidth" />
         <NavBarDataUilChart.icon />
         <NavBarDataUilPackage.icon />
-        <Link className="nav-link" to="/news" >News</Link>
-        <Link className="nav-link" to="/portfolio" >Portfolio</Link>
+    
       </div>
+      <div className="Link">
+          <Link className="nav-link" to="/news">
+            News
+          </Link>
+          <Link className="nav-link" to="/portfolio">
+            Portfolio
+          </Link>
+        </div>
       <div className="User">
         <div className="UserIcon">
           <NavBarDataUilUsersAlt.icon

@@ -6,8 +6,9 @@
   border-radius: 10px;
   gap: 3rem;
   background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
-
+ 
 }
+
 .NavBar>.User
 {
   align-items: center;
@@ -20,7 +21,6 @@
   margin-left: 10px;
   gap:10px;
   align-items: center;
-
   flex:2
   
   
@@ -52,6 +52,16 @@
 
   flex:3
 }
+
+.Link
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 3rem;
+    flex-shrink: 3; 
+  }
 
 .User
 {
@@ -100,3 +110,84 @@ cursor: pointer;
  width: 8rem;
  font-size: small;
  }
+
+ @media screen and (max-width: 800px) and (min-width: 100px) {
+  .NavBar {
+    row-gap: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
+;
+    
+  }
+  
+  .NavBar>.User
+  {
+    align-items: start;
+  }
+  
+  .Heading {
+    display: none;
+  
+  }
+
+  
+  .Link
+  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid black;
+    gap: 3rem;
+    flex-shrink: 3; 
+  }
+  .SearchGroup {
+    display: none;
+  }
+  
+  .User
+  {
+   
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    border: 1px solid black;
+    gap: 3rem;
+    flex-shrink: 3; 
+   
+
+  }
+  .UserImg>img
+  {
+    border-radius: 10rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
+    justify-content: center;
+   
+  
+  }
+  
+  .UserImg>span
+  {
+    border-radius: 10rem;
+    cursor: pointer;
+    align-items: start;
+    justify-content: start;
+  
+  
+  }
+  .UserIcon{
+   align-items: center;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+  cursor: pointer;
+  }
+
+}
+

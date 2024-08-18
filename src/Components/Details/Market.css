@@ -32,3 +32,40 @@
     gap:.5rem;
 
 }
+
+@media screen and (max-width: 800px) and (min-width: 100px) {
+    .Market
+{
+    height: 50vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    background: linear-gradient(90deg, rgba(238, 130, 238, 1) 47%, rgba(0, 209, 255, 1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+   
+
+}
+.MarketRefresh{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;  
+    width: 97%;
+}
+
+.CoinContainer{
+ 
+    height: 97%;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    gap:.5rem;
+
+}
+}

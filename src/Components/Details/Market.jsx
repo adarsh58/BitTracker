@@ -73,7 +73,7 @@ const Market = () => {
         {loading && <Loader caller="m" />}
         {!loading &&
           coins.result.map((e, i) => {
-            return <CoinItem id={e.rank} item={e} />;
+            return <CoinItem key={e.rank} id={e.rank} item={e} />;
           })}
       </div>
     </div>
