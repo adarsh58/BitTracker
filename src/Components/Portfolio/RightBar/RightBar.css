@@ -25,6 +25,32 @@
     margin-bottom: 1rem;
   
 }
+@media screen and (max-width: 500px) and  (min-width: 100px)  {
+    .RightBar{
+   
+        width: 70%;
+        margin-right: 1rem;
+    
+        border-radius: 10px;
+        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center;
+   
+    
+    }
+    
+    .MiningContainer
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+
+      
+    }
+  }
 
 @media screen and (max-width: 800px) and (min-width: 100px) {
     .RightBar{
