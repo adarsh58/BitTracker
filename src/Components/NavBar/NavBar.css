@@ -96,15 +96,14 @@
   font-size: small;
 }
 
-@media screen and (max-width: 1000px) and (min-width: 100px) {
+@media screen and (max-width: 1280px) and  (min-width: 360px) {
   .NavBar {
     display: flex;
     justify-content: center;
-    /* grid-template-columns: 10rem 20rem 10rem 20rem; */
-   flex-direction: column;
-   background-color: beige;
-    border-radius: 10px;
-
+    flex-direction: row;
+    background-color: beige;
+    height: 30%;
+   
    
   }
   
@@ -113,10 +112,11 @@
   }
   
   .Heading {
-    display: none;
+    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+    flex-shrink: 2;
 
   }
   .Heading > h2 {
@@ -129,38 +129,38 @@
     width: 3rem;
     align-items: center;
     justify-content: center;
-    display: none;
+    display: flex;
   }
   
   .SearchGroup {
-    display: none;
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    
+    flex-shrink: 1;
   
     cursor: pointer;
 
    
   }
   .TextArea {
-    display: none;
+    display: flex;
     height: 30px;
     background-color: antiquewhite;
   }
   .Link {
     display: flex;
     flex-direction: row;
-
+   
     column-gap: 10px;
     align-items: center;
     
   }
   
   .User {
-  
-    display: none;
+    flex-shrink: 1;
+    display: flex;
     flex-direction: row;
     gap: 0.5rem;
 
@@ -174,7 +174,7 @@
     width: 3rem;
     align-items: center;
     justify-content: center;
-    display: none;
+    display: flex;
   }
   
   .UserImg > span {
@@ -191,7 +191,113 @@
     flex-direction: row;
     gap: 10px;
     cursor: pointer;
-     display: none;
+   
+  }
+  .UserIcon > span {
+    width: 8rem;
+    font-size: small;
+  }
+   
+}
+
+
+@media screen and (max-width: 360px) and  (min-width: 100px) {
+  .NavBar {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: beige;
+    height: 30%;
+    width: 100%;
+    align-items: center;
+   
+   
+  }
+  
+  .NavBar > .User {
+    align-items: center;
+  }
+  
+  .Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-shrink: 2;
+
+  }
+  .Heading > h2 {
+    font-size: medium;
+  }
+  .Heading > img {
+    border-radius: 10rem;
+    cursor: pointer;
+    height: 50%;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .SearchGroup {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-shrink: 1;
+  
+    cursor: pointer;
+
+   
+  }
+  .TextArea {
+    display: flex;
+    height: 30px;
+    background-color: antiquewhite;
+  }
+  .Link {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    align-items: center;
+    order: 2;
+  }
+  
+  .User {
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: row;
+  
+    order: 1;
+    justify-content: start;
+   
+  }
+  .UserImg > img {
+    border-radius: 10rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  
+  .UserImg > span {
+    border-radius: 10rem;
+    cursor: pointer;
+    height: 3rem;
+    width: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .UserIcon {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    cursor: pointer;
+   
   }
   .UserIcon > span {
     width: 8rem;

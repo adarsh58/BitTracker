@@ -4,10 +4,10 @@ const NewsItem = (props) => {
   return (
     <div
       className="NewsCard"
-      style={{
-        background: props.color.backGround,
-        boxShadow: props.color.boxShadow,
-      }}
+      // style={{
+      //   background: props.color.backGround,
+      //   boxShadow: props.color.boxShadow,
+      // }}
     >
       <div className="UpperCard">
         <div className="CardIcon">

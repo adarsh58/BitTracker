@@ -43,7 +43,7 @@ const [loading,setLoading]=useState(true);
             <NewsItem
               source={i.source}
               title={i.title}
-              color={color}
+             
               imgUrl={i.imgUrl}
               sourceLink={i.sourceLink}
             />
