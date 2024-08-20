@@ -4,27 +4,6 @@
   flex-direction: column;
   gap:10px;
   height: 100vh;
-  background: linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
-
-}
-
-@media screen and (max-width: 800px) and (min-width: 500px) {
-  .App{
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    background: linear-gradient(90deg, rgba(244, 0, 255, 1) 0%, rgba(255, 0, 0, 1) 100%);
   
-  }
-}
 
-@media screen and (max-width: 500px) and  (min-width: 100px)  {
-  .App{
-    display: flex;
-    flex-direction: column;
-    height: 130vh;
-    width: 45vh;
-    background: linear-gradient(90deg, rgb(42, 34, 42) 0%, rgba(255, 0, 0, 1) 100%);
-  
-  }
 }

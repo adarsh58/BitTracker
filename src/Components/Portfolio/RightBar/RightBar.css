@@ -4,14 +4,14 @@
     margin-right: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    border-radius: 10px;
-    background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
+    border-radius: 10px;  
     display: flex;
     flex-direction: column;
     gap: 1rem;
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+    position: relative;
 
 }
 
@@ -20,52 +20,23 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    position: absolute;
   
 }
-@media screen and (max-width: 500px) and  (min-width: 100px)  {
+@media screen and (max-width: 1422px) and  (min-width: 500px)  {
     .RightBar{
    
-        width: 70%;
-        margin-right: 1rem;
-    
-        border-radius: 10px;
-        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
+        width: 20%;
+        border-radius: 10px;  
         display: flex;
         flex-direction: column;
-       
-        justify-content: center;
-        align-items: center;
-   
-    
-    }
-    
-    .MiningContainer
-    {
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-
       
-    }
-  }
-
-@media screen and (max-width: 800px) and (min-width: 100px) {
-    .RightBar{
-   
-        width: 50%;
-        margin-right: 1rem;
-    
-        border-radius: 10px;
-        background: linear-gradient(90deg, rgba(255, 255, 0, 1) 0%, rgba(238, 130, 238, 1) 79%);
-        display: flex;
-        flex-direction: column;
-       
         justify-content: center;
         align-items: center;
-   
+        border: 1px solid black;
+        position: relative;
     
     }
     
@@ -74,7 +45,8 @@
         display: flex;
         flex-direction: column;
         justify-content: start;
-
+    
+        position: absolute;
       
     }
 }

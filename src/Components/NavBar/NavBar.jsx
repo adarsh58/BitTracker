@@ -40,7 +40,7 @@ const NavBar = () => {
         <img src={NavBarDatalogo.icon}></img>
       </div>
       <div className="SearchGroup">
-        <TextField label="Search..." id="fullWidth" />
+        <textarea className ="TextArea" />
         <NavBarDataUilChart.icon />
         <NavBarDataUilPackage.icon />
     

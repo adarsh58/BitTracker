@@ -17,10 +17,6 @@ const Card = (props) => {
       <div className="LowerCard">
        
         <div className="Price">{props.price.toFixed(2)}</div>
-        <div className="Explore">
-        <i className="fa-brands fa-twitter"></i>
-       
-        </div>
       </div>
     </div>
   );

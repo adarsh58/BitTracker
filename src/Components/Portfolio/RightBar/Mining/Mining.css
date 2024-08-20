@@ -44,3 +44,54 @@
     flex-direction: column;
     justify-content: center;
 }
+
+@media screen and (max-width: 1422px) and  (min-width: 500px)  {
+  .Mining {
+    display: grid;
+    grid-template-columns: 2rem auto 2rem;
+   
+  }
+  
+  .Icon > img {
+  
+    border-radius: 10rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .RightDetails {
+    margin-left: .5rem;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .Title{
+      font-size: x-small;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-weight: bold;
+  }
+  .Status{
+      
+    font-size: x-small;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+      font-weight: lighter;
+      color: red;
+  
+  }
+  .Radiobtn
+  {
+      
+      margin-left: 1rem;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
+  
+
+}
