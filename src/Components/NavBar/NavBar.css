@@ -6,7 +6,7 @@
   height: 10%;
   border-radius: 10px;
   gap: 5rem;
-  
+  background-color: beige;
  
 }
 
@@ -102,7 +102,7 @@
     justify-content: center;
     /* grid-template-columns: 10rem 20rem 10rem 20rem; */
    flex-direction: column;
- 
+   background-color: beige;
     border-radius: 10px;
 
    

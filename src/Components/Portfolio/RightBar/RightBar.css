@@ -10,7 +10,7 @@
     gap: 1rem;
     justify-content: center;
     align-items: center;
-   
+    background-color: beige;
     position: relative;
 
 }
@@ -27,7 +27,7 @@
 }
 @media screen and (max-width: 1280px) and  (min-width: 100px)  {
     .RightBar{
-   
+        background-color: beige;
         width: 20%;
         border-radius: 10px;  
         display: flex;
