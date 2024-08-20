@@ -24,46 +24,20 @@
     gap:1rem
 }
 
-@media screen and (max-width: 800px) and (min-width: 100px) {
-    .PortFolio{
-  
-        height: 30vh;
-        display: flex;
-        overflow: hidden;
-        justify-content: center;
-        overflow: scroll;
-        flex-wrap: wrap;
-    }
-    
-    .PortFolioCard
-    {
-        margin-left: 1rem;
-        margin-right: 1rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        border-radius: 10px;
-        /* background: linear-gradient(90deg, rgba(236, 236, 209, 1) 24%, rgba(251, 224, 251, 1) 100%); */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        gap:1rem;
-        flex-wrap: wrap;
-        overflow: scroll;
-        
-    }
-}
 
-@media screen and (max-width: 1422px) and  (min-width: 500px)  {
+@media screen and (max-width: 1280px) and  (min-width: 100px)  {
     .PortFolio{
         height: 100%;
-        display: flex;
-       overflow: hidden;
+        display: flex;     
         justify-content: center;
+        flex-direction: column;
+      
       
     }
     
     .PortFolioCard
     {
+        width: 100%;
         height: 100%;
         margin-left: 1rem;
         margin-right: 1rem;
@@ -78,4 +52,34 @@
         overflow: scroll;
         
     }
+}
+
+
+@media screen and (max-width: 850px) and  (min-width: 100px)  {
+    .PortFolio{
+  
+    height: 70vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+  
+}
+
+.PortFolioCard
+{
+    
+    width: fit-content;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    /* background: linear-gradient(90deg, rgba(236, 236, 209, 1) 24%, rgba(251, 224, 251, 1) 100%); */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap:1rem
+}
 }

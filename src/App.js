@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <NavBar />
-        <Dimension/>
+        {/* <Dimension/> */}
         <Routes>
           <Route exact path="/" element={<><PortFolio /> <Market /></>} />
           <Route exact path="/news" element={<><NewsContainer /></>} />

@@ -45,11 +45,11 @@
     justify-content: center;
 }
 
-@media screen and (max-width: 1422px) and  (min-width: 500px)  {
+@media screen and (max-width: 1280px) and  (min-width: 100px)  {
   .Mining {
-    display: grid;
+    display: none;
     grid-template-columns: 2rem auto 2rem;
-   
+    
   }
   
   .Icon > img {
@@ -63,8 +63,7 @@
   }
   
   .RightDetails {
-    margin-left: .5rem;
-   
+  
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
